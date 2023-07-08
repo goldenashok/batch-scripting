@@ -6,6 +6,7 @@ Batch Scripting for windows
    - echo <Description>
    - pause -> this will stop the execution
    - start <file(exe) || URL> -> start the execution
+     
 2. ```Open URL in the Chrome and msedge```
    
    ```@echo off

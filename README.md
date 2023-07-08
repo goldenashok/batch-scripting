@@ -30,7 +30,7 @@ Batch Scripting for windows
    ```
 5. ```Open Website in the edge inprivate window```
     ```
-   @echo off
+    @echo off
    Title Ashok BATCH
    echo Open url in the chrome and msedge
    pause

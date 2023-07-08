@@ -29,6 +29,7 @@ Batch Scripting for windows
    start chrome.exe -incognito google.com
    ```
 5. ```Open Website in the edge inprivate window```
+   
       ```
       @echo off
       Title Ashok BATCH
@@ -36,7 +37,7 @@ Batch Scripting for windows
       pause
       start msedge.exe -inprivate google.com
       ```
-6. ```Open Application``` 
+7. ```Open Application``` 
        ```
       @echo off
       Title Ashok BATCH
@@ -44,7 +45,7 @@ Batch Scripting for windows
       pause      
       start notepad.exe
       ```
-7. ```Open the file using the file path```
+8. ```Open the file using the file path```
     ```
    @echo off
    Title Ashok BATCH   
@@ -52,7 +53,7 @@ Batch Scripting for windows
     pause
    start /d "%windir%\system32" mspaint.exe
    ```
-8. ```Move file form one folder to another folder```
+9. ```Move file form one folder to another folder```
     ```
    @echo off
    Title Ashok BATCH
@@ -60,7 +61,7 @@ Batch Scripting for windows
    pause
    move "C:\Users\Ashok\Downloads\gkauditors_finance.sql" "C:\Users\Ashok\Downloads\Test"
    ```
-9. ```Move all file form one folder to another folder```
+10. ```Move all file form one folder to another folder```
     ```
    @echo off
    Title Ashok BATCH

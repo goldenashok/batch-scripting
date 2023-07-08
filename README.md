@@ -11,7 +11,7 @@ Batch Scripting for windows
    
    ```
    @echo off
-   Title Ashok BAT
+   Title Ashok BATCH
    echo Open url in the chrome and msedge
    pause
    start chrome.exe google.com get2data.com
@@ -29,33 +29,35 @@ Batch Scripting for windows
    start chrome.exe -incognito google.com
    ```
 5. ```Open Website in the edge inprivate window```
-   
     ```
    @echo off
-   Title Ashok BAT
+   Title Ashok BATCH
    echo Open url in the chrome and msedge
    pause
    echo open msedge browser
    start msedge.exe -inprivate google.com
    ```
-
-6. ```Open Application```
- 
+6. ```Open Application``` 
        ```
       @echo off
-      Title Ashok BAT
-      echo Open url in the chrome and msedge
-      pause
+      Title Ashok BATCH
       echo Open Application
+      pause      
       start notepad.exe
       ```
 7. ```Open the file using the file path```
     ```
    @echo off
-   Title Ashok BAT
-   echo Open url in the chrome and msedge
-   pause
+   Title Ashok BATCH   
    echo Open file using the path
+    pause
    start /d "%windir%\system32" mspaint.exe
    ```
-8. 
+8. ```Move file form one folder to another folder```
+    ```
+   @echo off
+   Title Ashok BATCH
+   echo Move the file from one folder to another folder
+   pause
+   move "C:\Users\Ashok\Downloads\gkauditors_finance.sql" "C:\Users\Ashok\Downloads\Test"
+   ```

@@ -39,13 +39,23 @@ Batch Scripting for windows
    start msedge.exe -inprivate google.com
    ```
 
-6. ``` Open Application```
+6. ```Open Application```
  
        ```
-         @echo off
-         Title Ashok BAT
-         echo Open url in the chrome and msedge
-          pause
-         echo Open Application
-         start notepad.exe
+      @echo off
+      Title Ashok BAT
+      echo Open url in the chrome and msedge
+      pause
+      echo Open Application
+      start notepad.exe
       ```
+7. ```Open the file using the file path```
+    ```
+   @echo off
+   Title Ashok BAT
+   echo Open url in the chrome and msedge
+   pause
+   echo Open file using the path
+   start /d "%windir%\system32" mspaint.exe
+   ```
+8. 

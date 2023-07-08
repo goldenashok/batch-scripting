@@ -32,4 +32,13 @@ Batch Scripting for windows
    echo open msedge browser
    start msedge.exe -inprivate google.com```
 
-5. 
+6. ``` Open Application```
+ 
+    ```
+      @echo off
+      Title Ashok BAT
+      echo Open url in the chrome and msedge
+     pause
+      echo Open Application
+      start notepad.exe
+      ```

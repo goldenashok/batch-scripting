@@ -61,7 +61,7 @@ Batch Scripting for windows
    pause
    move "C:\Users\Ashok\Downloads\gkauditors_finance.sql" "C:\Users\Ashok\Downloads\Test"
    ```
-9.  ```Move all file form one folder to another folder```
+9. ```Move all file form one folder to another folder```
     ```
    @echo off
    Title Ashok BATCH
@@ -69,3 +69,5 @@ Batch Scripting for windows
    pause
    move "C:\Users\Ashok\Downloads\*.sql" "C:\Users\Ashok\Downloads\Test"
    ```
+
+

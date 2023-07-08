@@ -29,14 +29,13 @@ Batch Scripting for windows
    start chrome.exe -incognito google.com
    ```
 5. ```Open Website in the edge inprivate window```
-    ```
-    @echo off
-   Title Ashok BATCH
-   echo Open url in the chrome and msedge
-   pause
-   echo open msedge browser
-   start msedge.exe -inprivate google.com
-   ```
+      ```
+      @echo off
+      Title Ashok BATCH
+      echo open msedge browser
+      pause
+      start msedge.exe -inprivate google.com
+      ```
 6. ```Open Application``` 
        ```
       @echo off
